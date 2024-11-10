@@ -1,5 +1,6 @@
 import React from 'react'
 import { DocsThemeConfig } from 'nextra-theme-docs'
+import NextraDocsTemplateLink from './components/Footer'
 
 const config: DocsThemeConfig = {
   logo: <span>My Project</span>,
@@ -11,7 +12,7 @@ const config: DocsThemeConfig = {
   },
   docsRepositoryBase: 'https://github.com/shuding/nextra-docs-template',
   footer: {
-    text: 'Nextra Docs Template',
+    text: <NextraDocsTemplateLink />
   },
 }
 
